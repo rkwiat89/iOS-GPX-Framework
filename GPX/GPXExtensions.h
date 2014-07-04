@@ -13,4 +13,7 @@
  */
 @interface GPXExtensions : GPXElement
 
+@property (nonatomic, assign) NSNumber *pitch;
+@property (nonatomic, assign) NSNumber *roll;
+
 @end
